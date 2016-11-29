@@ -219,6 +219,168 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+Coordinate.o: Coordinate.cpp.o
+
+.PHONY : Coordinate.o
+
+# target to build an object file
+Coordinate.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Coordinate.cpp.o
+.PHONY : Coordinate.cpp.o
+
+Coordinate.i: Coordinate.cpp.i
+
+.PHONY : Coordinate.i
+
+# target to preprocess a source file
+Coordinate.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Coordinate.cpp.i
+.PHONY : Coordinate.cpp.i
+
+Coordinate.s: Coordinate.cpp.s
+
+.PHONY : Coordinate.s
+
+# target to generate assembly for a file
+Coordinate.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Coordinate.cpp.s
+.PHONY : Coordinate.cpp.s
+
+Grid.o: Grid.cpp.o
+
+.PHONY : Grid.o
+
+# target to build an object file
+Grid.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Grid.cpp.o
+.PHONY : Grid.cpp.o
+
+Grid.i: Grid.cpp.i
+
+.PHONY : Grid.i
+
+# target to preprocess a source file
+Grid.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Grid.cpp.i
+.PHONY : Grid.cpp.i
+
+Grid.s: Grid.cpp.s
+
+.PHONY : Grid.s
+
+# target to generate assembly for a file
+Grid.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Grid.cpp.s
+.PHONY : Grid.cpp.s
+
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+TestGrid.o: TestGrid.cpp.o
+
+.PHONY : TestGrid.o
+
+# target to build an object file
+TestGrid.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestGrid.cpp.o
+.PHONY : TestGrid.cpp.o
+
+TestGrid.i: TestGrid.cpp.i
+
+.PHONY : TestGrid.i
+
+# target to preprocess a source file
+TestGrid.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestGrid.cpp.i
+.PHONY : TestGrid.cpp.i
+
+TestGrid.s: TestGrid.cpp.s
+
+.PHONY : TestGrid.s
+
+# target to generate assembly for a file
+TestGrid.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestGrid.cpp.s
+.PHONY : TestGrid.cpp.s
+
+TestNode.o: TestNode.cpp.o
+
+.PHONY : TestNode.o
+
+# target to build an object file
+TestNode.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestNode.cpp.o
+.PHONY : TestNode.cpp.o
+
+TestNode.i: TestNode.cpp.i
+
+.PHONY : TestNode.i
+
+# target to preprocess a source file
+TestNode.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestNode.cpp.i
+.PHONY : TestNode.cpp.i
+
+TestNode.s: TestNode.cpp.s
+
+.PHONY : TestNode.s
+
+# target to generate assembly for a file
+TestNode.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestNode.cpp.s
+.PHONY : TestNode.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -246,33 +408,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/test.cpp.s
-.PHONY : test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -290,12 +425,27 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... Coordinate.o"
+	@echo "... Coordinate.i"
+	@echo "... Coordinate.s"
+	@echo "... Grid.o"
+	@echo "... Grid.i"
+	@echo "... Grid.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
+	@echo "... TestGrid.o"
+	@echo "... TestGrid.i"
+	@echo "... TestGrid.s"
+	@echo "... TestNode.o"
+	@echo "... TestNode.i"
+	@echo "... TestNode.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 

@@ -16,12 +16,14 @@ private:
     Trip trips[];
 public:
     TaxiCenter();
-    Driver findDriver(Trip t);
+    Driver findDriver(Trip t); //TODO
     Trip createTrip(Passenger p);
     void setTaxiLocations(Point p[]);
     void addTrip(Passenger p);
-    void updateMeters();
+    void updateMeters(); //TODO
     int checkDestinations();
+    Point* getLocations();//TODO
+    Trip* getTrips();//TODO
 
 };
 

@@ -326,6 +326,42 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Coordinate.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Coordinate.h">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Grid.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Grid.h">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Node.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Node.h">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Point.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Point.h">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestGrid.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestGrid.h">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.h">
+			<Option target="ex2"/>
+		</Unit>
 		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
@@ -342,12 +378,6 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/main.cpp">
-			<Option target="ex2"/>
-		</Unit>
-		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/test.cpp">
-			<Option target="ex2"/>
-		</Unit>
-		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/test.h">
 			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/CMakeLists.txt">

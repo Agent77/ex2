@@ -5,10 +5,12 @@
 #ifndef EX2_PASSENGER_H
 #define EX2_PASSENGER_H
 
-
+#include "Point.h"
 class Passenger {
 public:
     int rateDriver();
+    Point getSource();
+    Point getDestination();
 };
 
 
