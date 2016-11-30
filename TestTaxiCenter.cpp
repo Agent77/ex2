@@ -32,3 +32,5 @@ TEST(TestTaxiCenter, checkDestinations) {
     //Should find a destination match at index 0 of locations
     ASSERT_EQ(index, 0) << "Doesnt know that it arrived at destination 0.";
 }
+
+//Comment
