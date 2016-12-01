@@ -5,6 +5,7 @@
 #ifndef EX2_TESTPASSENGER_H
 #define EX2_TESTPASSENGER_H
 #include "Point.h"
+#include "Passenger.h"
 #include <gtest/gtest.h>
 class TestPassenger:public::testing::Test {
 protected:
