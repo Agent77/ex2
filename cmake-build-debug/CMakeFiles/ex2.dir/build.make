@@ -81,33 +81,105 @@ CMakeFiles/ex2.dir/main.cpp.o.provides: CMakeFiles/ex2.dir/main.cpp.o.requires
 CMakeFiles/ex2.dir/main.cpp.o.provides.build: CMakeFiles/ex2.dir/main.cpp.o
 
 
-CMakeFiles/ex2.dir/TestNode.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/TestNode.cpp.o: ../TestNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex2.dir/TestNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/TestNode.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp
+CMakeFiles/ex2.dir/test.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/test.cpp.o: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex2.dir/test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/test.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/test.cpp
 
-CMakeFiles/ex2.dir/TestNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/TestNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp > CMakeFiles/ex2.dir/TestNode.cpp.i
+CMakeFiles/ex2.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/test.cpp > CMakeFiles/ex2.dir/test.cpp.i
 
-CMakeFiles/ex2.dir/TestNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/TestNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp -o CMakeFiles/ex2.dir/TestNode.cpp.s
+CMakeFiles/ex2.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/test.cpp -o CMakeFiles/ex2.dir/test.cpp.s
 
-CMakeFiles/ex2.dir/TestNode.cpp.o.requires:
+CMakeFiles/ex2.dir/test.cpp.o.requires:
 
-.PHONY : CMakeFiles/ex2.dir/TestNode.cpp.o.requires
+.PHONY : CMakeFiles/ex2.dir/test.cpp.o.requires
 
-CMakeFiles/ex2.dir/TestNode.cpp.o.provides: CMakeFiles/ex2.dir/TestNode.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestNode.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/TestNode.cpp.o.provides
+CMakeFiles/ex2.dir/test.cpp.o.provides: CMakeFiles/ex2.dir/test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/test.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/test.cpp.o.provides
 
-CMakeFiles/ex2.dir/TestNode.cpp.o.provides.build: CMakeFiles/ex2.dir/TestNode.cpp.o
+CMakeFiles/ex2.dir/test.cpp.o.provides.build: CMakeFiles/ex2.dir/test.cpp.o
+
+
+CMakeFiles/ex2.dir/TestCity.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/TestCity.cpp.o: ../TestCity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex2.dir/TestCity.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/TestCity.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestCity.cpp
+
+CMakeFiles/ex2.dir/TestCity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/TestCity.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestCity.cpp > CMakeFiles/ex2.dir/TestCity.cpp.i
+
+CMakeFiles/ex2.dir/TestCity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/TestCity.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestCity.cpp -o CMakeFiles/ex2.dir/TestCity.cpp.s
+
+CMakeFiles/ex2.dir/TestCity.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/TestCity.cpp.o.requires
+
+CMakeFiles/ex2.dir/TestCity.cpp.o.provides: CMakeFiles/ex2.dir/TestCity.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestCity.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/TestCity.cpp.o.provides
+
+CMakeFiles/ex2.dir/TestCity.cpp.o.provides.build: CMakeFiles/ex2.dir/TestCity.cpp.o
+
+
+CMakeFiles/ex2.dir/TestBFS.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/TestBFS.cpp.o: ../TestBFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex2.dir/TestBFS.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/TestBFS.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestBFS.cpp
+
+CMakeFiles/ex2.dir/TestBFS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/TestBFS.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestBFS.cpp > CMakeFiles/ex2.dir/TestBFS.cpp.i
+
+CMakeFiles/ex2.dir/TestBFS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/TestBFS.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestBFS.cpp -o CMakeFiles/ex2.dir/TestBFS.cpp.s
+
+CMakeFiles/ex2.dir/TestBFS.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/TestBFS.cpp.o.requires
+
+CMakeFiles/ex2.dir/TestBFS.cpp.o.provides: CMakeFiles/ex2.dir/TestBFS.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestBFS.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/TestBFS.cpp.o.provides
+
+CMakeFiles/ex2.dir/TestBFS.cpp.o.provides.build: CMakeFiles/ex2.dir/TestBFS.cpp.o
+
+
+CMakeFiles/ex2.dir/TestPoint.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/TestPoint.cpp.o: ../TestPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex2.dir/TestPoint.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/TestPoint.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestPoint.cpp
+
+CMakeFiles/ex2.dir/TestPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/TestPoint.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestPoint.cpp > CMakeFiles/ex2.dir/TestPoint.cpp.i
+
+CMakeFiles/ex2.dir/TestPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/TestPoint.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestPoint.cpp -o CMakeFiles/ex2.dir/TestPoint.cpp.s
+
+CMakeFiles/ex2.dir/TestPoint.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/TestPoint.cpp.o.requires
+
+CMakeFiles/ex2.dir/TestPoint.cpp.o.provides: CMakeFiles/ex2.dir/TestPoint.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestPoint.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/TestPoint.cpp.o.provides
+
+CMakeFiles/ex2.dir/TestPoint.cpp.o.provides.build: CMakeFiles/ex2.dir/TestPoint.cpp.o
 
 
 CMakeFiles/ex2.dir/Node.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex2.dir/Node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex2.dir/Node.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Node.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Node.cpp
 
 CMakeFiles/ex2.dir/Node.cpp.i: cmake_force
@@ -131,7 +203,7 @@ CMakeFiles/ex2.dir/Node.cpp.o.provides.build: CMakeFiles/ex2.dir/Node.cpp.o
 
 CMakeFiles/ex2.dir/Point.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex2.dir/Point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex2.dir/Point.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Point.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Point.cpp
 
 CMakeFiles/ex2.dir/Point.cpp.i: cmake_force
@@ -155,7 +227,7 @@ CMakeFiles/ex2.dir/Point.cpp.o.provides.build: CMakeFiles/ex2.dir/Point.cpp.o
 
 CMakeFiles/ex2.dir/Coordinate.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Coordinate.cpp.o: ../Coordinate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex2.dir/Coordinate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex2.dir/Coordinate.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Coordinate.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Coordinate.cpp
 
 CMakeFiles/ex2.dir/Coordinate.cpp.i: cmake_force
@@ -179,7 +251,7 @@ CMakeFiles/ex2.dir/Coordinate.cpp.o.provides.build: CMakeFiles/ex2.dir/Coordinat
 
 CMakeFiles/ex2.dir/Grid.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Grid.cpp.o: ../Grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex2.dir/Grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex2.dir/Grid.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Grid.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Grid.cpp
 
 CMakeFiles/ex2.dir/Grid.cpp.i: cmake_force
@@ -201,9 +273,33 @@ CMakeFiles/ex2.dir/Grid.cpp.o.provides: CMakeFiles/ex2.dir/Grid.cpp.o.requires
 CMakeFiles/ex2.dir/Grid.cpp.o.provides.build: CMakeFiles/ex2.dir/Grid.cpp.o
 
 
+CMakeFiles/ex2.dir/TestNode.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/TestNode.cpp.o: ../TestNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex2.dir/TestNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/TestNode.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp
+
+CMakeFiles/ex2.dir/TestNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/TestNode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp > CMakeFiles/ex2.dir/TestNode.cpp.i
+
+CMakeFiles/ex2.dir/TestNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/TestNode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp -o CMakeFiles/ex2.dir/TestNode.cpp.s
+
+CMakeFiles/ex2.dir/TestNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/TestNode.cpp.o.requires
+
+CMakeFiles/ex2.dir/TestNode.cpp.o.provides: CMakeFiles/ex2.dir/TestNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestNode.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/TestNode.cpp.o.provides
+
+CMakeFiles/ex2.dir/TestNode.cpp.o.provides.build: CMakeFiles/ex2.dir/TestNode.cpp.o
+
+
 CMakeFiles/ex2.dir/TestGrid.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/TestGrid.cpp.o: ../TestGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex2.dir/TestGrid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ex2.dir/TestGrid.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/TestGrid.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestGrid.cpp
 
 CMakeFiles/ex2.dir/TestGrid.cpp.i: cmake_force
@@ -225,32 +321,66 @@ CMakeFiles/ex2.dir/TestGrid.cpp.o.provides: CMakeFiles/ex2.dir/TestGrid.cpp.o.re
 CMakeFiles/ex2.dir/TestGrid.cpp.o.provides.build: CMakeFiles/ex2.dir/TestGrid.cpp.o
 
 
+CMakeFiles/ex2.dir/BFS.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/BFS.cpp.o: ../BFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ex2.dir/BFS.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/BFS.cpp.o -c /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.cpp
+
+CMakeFiles/ex2.dir/BFS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/BFS.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.cpp > CMakeFiles/ex2.dir/BFS.cpp.i
+
+CMakeFiles/ex2.dir/BFS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/BFS.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.cpp -o CMakeFiles/ex2.dir/BFS.cpp.s
+
+CMakeFiles/ex2.dir/BFS.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/BFS.cpp.o.requires
+
+CMakeFiles/ex2.dir/BFS.cpp.o.provides: CMakeFiles/ex2.dir/BFS.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/BFS.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/BFS.cpp.o.provides
+
+CMakeFiles/ex2.dir/BFS.cpp.o.provides.build: CMakeFiles/ex2.dir/BFS.cpp.o
+
+
 # Object files for target ex2
 ex2_OBJECTS = \
 "CMakeFiles/ex2.dir/main.cpp.o" \
-"CMakeFiles/ex2.dir/TestNode.cpp.o" \
+"CMakeFiles/ex2.dir/test.cpp.o" \
+"CMakeFiles/ex2.dir/TestCity.cpp.o" \
+"CMakeFiles/ex2.dir/TestBFS.cpp.o" \
+"CMakeFiles/ex2.dir/TestPoint.cpp.o" \
 "CMakeFiles/ex2.dir/Node.cpp.o" \
 "CMakeFiles/ex2.dir/Point.cpp.o" \
 "CMakeFiles/ex2.dir/Coordinate.cpp.o" \
 "CMakeFiles/ex2.dir/Grid.cpp.o" \
-"CMakeFiles/ex2.dir/TestGrid.cpp.o"
+"CMakeFiles/ex2.dir/TestNode.cpp.o" \
+"CMakeFiles/ex2.dir/TestGrid.cpp.o" \
+"CMakeFiles/ex2.dir/BFS.cpp.o"
 
 # External object files for target ex2
 ex2_EXTERNAL_OBJECTS =
 
 ex2: CMakeFiles/ex2.dir/main.cpp.o
-ex2: CMakeFiles/ex2.dir/TestNode.cpp.o
+ex2: CMakeFiles/ex2.dir/test.cpp.o
+ex2: CMakeFiles/ex2.dir/TestCity.cpp.o
+ex2: CMakeFiles/ex2.dir/TestBFS.cpp.o
+ex2: CMakeFiles/ex2.dir/TestPoint.cpp.o
 ex2: CMakeFiles/ex2.dir/Node.cpp.o
 ex2: CMakeFiles/ex2.dir/Point.cpp.o
 ex2: CMakeFiles/ex2.dir/Coordinate.cpp.o
 ex2: CMakeFiles/ex2.dir/Grid.cpp.o
+ex2: CMakeFiles/ex2.dir/TestNode.cpp.o
 ex2: CMakeFiles/ex2.dir/TestGrid.cpp.o
+ex2: CMakeFiles/ex2.dir/BFS.cpp.o
 ex2: CMakeFiles/ex2.dir/build.make
 ex2: lib/googletest-master/googlemock/gtest/libgtest.a
 ex2: lib/googletest-master/googlemock/gtest/libgtest_main.a
 ex2: lib/googletest-master/googlemock/gtest/libgtest.a
 ex2: CMakeFiles/ex2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ex2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ex2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -259,12 +389,17 @@ CMakeFiles/ex2.dir/build: ex2
 .PHONY : CMakeFiles/ex2.dir/build
 
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/main.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/TestNode.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/test.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/TestCity.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/TestBFS.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/TestPoint.cpp.o.requires
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Node.cpp.o.requires
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Point.cpp.o.requires
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Coordinate.cpp.o.requires
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Grid.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/TestNode.cpp.o.requires
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/TestGrid.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/BFS.cpp.o.requires
 
 .PHONY : CMakeFiles/ex2.dir/requires
 

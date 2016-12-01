@@ -8,14 +8,13 @@
 #include "Grid.h"
 #include "gtest/gtest.h"
 class TestGrid:public::testing::Test {
-    Grid* grid;
+protected:
+    Grid grid;
 public:
-    void SetUp() {
-        grid = new Grid(4,4);
+    virtual void SetUp() {
+        grid = Grid(4,4);
     }
-    void GetLocationOfPrev();
-    void GetNeighbors();
-    void GetNode();
+
 };
 
 

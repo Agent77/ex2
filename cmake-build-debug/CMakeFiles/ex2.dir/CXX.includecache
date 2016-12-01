@@ -278,6 +278,22 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.cpp
+BFS.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.h
+
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.h
+Node.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Node.h
+queue
+-
+Graph.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Graph.h
+Grid.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Grid.h
+Coordinate.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Coordinate.h
+
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Coordinate.cpp
 Coordinate.h
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Coordinate.h
@@ -332,15 +348,45 @@ iostream
 Coordinate.h
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Coordinate.h
 
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestBFS.cpp
+gtest/gtest.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/gtest/gtest.h
+TestBFS.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestBFS.h
+BFS.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.h
+
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestBFS.h
+Point.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Point.h
+Grid.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Grid.h
+BFS.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/BFS.h
+gtest/gtest.h
+-
+
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestCity.cpp
+TestCity.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestCity.h
+
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestCity.h
+
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestGrid.cpp
 TestGrid.h
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestGrid.h
+Node.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Node.h
+Point.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Point.h
 gtest/gtest.h
-/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/gtest/gtest.h
+-
 
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestGrid.h
 Grid.h
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Grid.h
+gtest/gtest.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/gtest/gtest.h
 
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.cpp
 gtest/gtest.h
@@ -349,10 +395,24 @@ TestNode.h
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.h
 
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestNode.h
+gtest/gtest.h
+-
 Node.h
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Node.h
+
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestPoint.cpp
+Point.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/Point.h
+TestPoint.h
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestPoint.h
+gtest/gtest.h
+-
+
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/TestPoint.h
 
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/main.cpp
 gtest/gtest.h
 /Users/Tiki/ClionProjects/AdvancedProgramming/ex2/gtest/gtest.h
+
+/Users/Tiki/ClionProjects/AdvancedProgramming/ex2/test.cpp
 

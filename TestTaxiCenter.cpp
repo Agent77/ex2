@@ -2,7 +2,15 @@
 #include "gtest/gtest.h"
 #include "TestTaxiCenter.h"
 
-
+/*
+ * TaxiCenter();
+    Driver findDriver(Trip t);
+    Trip createTrip(Passenger p);
+    void setTaxiLocations(Point p[]);
+    void addTrip(Passenger p);
+    void updateMeters();
+    int checkDestinations();
+ */
 TEST(TestTaxiCenter, addTrip) {
     int size = sizeof(tc.getTrips)/4;
     tc.addTrip(Trip());
@@ -26,7 +34,7 @@ TEST(TestTaxiCenter, checkDestinations) {
     tc.setLocation(1, Point(2,2));
     int index = tc.checkDestinations();
     //Should be -1 because did not arrive at any destination
-    ASSERT_EQ(index, -1);
+    ASSERT_EQ(index, -1) << "Incorrect return value.";
     tc.setLocation(0, Point(1,1));
     int index = tc.checkDestinations();
     //Should find a destination match at index 0 of locations

@@ -5,17 +5,15 @@
 #ifndef EX2_TESTPASSENGER_H
 #define EX2_TESTPASSENGER_H
 #include "Point.h"
-
+#include <gtest/gtest.h>
 class TestPassenger:public::testing::Test {
-private:
+protected:
     Passenger p;
-    Point source;
-    Point dest;
 public:
     void SetUp() {
         p = Passenger(Point(1,2),Point(3,4));
     }
-    void PassengerConstructor() : p = Passenger(Point(1,2),Point(3,4)), source = p.getSource(), destination = p.getDestination();
+    void PassengerConstructor() : p = Passenger(Point(1,2),Point(3,4));
     int RateDriver();
     void Source();
 

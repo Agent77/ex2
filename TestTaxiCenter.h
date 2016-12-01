@@ -1,17 +1,11 @@
-//
-// Created by Tiki Lobel on 11/29/16.
-//
 
 #ifndef EX2_TESTTAXICENTER_H
 #define EX2_TESTTAXICENTER_H
+#include <gtest/gtest.h>
 #include "TaxiCenter.h"
-//afads
 class TestTaxiCenter:public::testing::Test {
 private:
     TaxiCenter tc;
-    Driver drivers[];
-    Point locations[];
-    Trip trips[];
 public:
     void SetUp() {
          tc = TaxiCenter();
@@ -26,7 +20,6 @@ public:
     void addTrip();
     void setTaxiLocations();
     void checkDestinations();
-
     Driver findDriver(Trip t);
     Trip createTrip(Passenger p);
     void addTrip(Passenger p);

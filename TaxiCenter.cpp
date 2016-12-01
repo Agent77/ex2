@@ -6,7 +6,7 @@
 TaxiCenter::TaxiCenter() {
 
 }
-//Checks BFS to see if a driver is on the grid
+//Checks BFS to find the closest driver to passenger source
 Driver TaxiCenter::findDriver(Trip t) {
     return NULL;
 }
@@ -18,15 +18,15 @@ void TaxiCenter::setTaxiLocations(Point p[]) {
 
 }
 
-//Done
-void addTrip(Passenger p) {
+
+void TaxiCenter::addTrip(Passenger p) {
 
 }
 
-void updateMeters() {
+void TaxiCenter::updateMeters() {
 
 }
 
-int checkDestinations()  {
+int TaxiCenter::checkDestinations()  {
 
 }

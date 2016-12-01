@@ -219,6 +219,33 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+BFS.o: BFS.cpp.o
+
+.PHONY : BFS.o
+
+# target to build an object file
+BFS.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/BFS.cpp.o
+.PHONY : BFS.cpp.o
+
+BFS.i: BFS.cpp.i
+
+.PHONY : BFS.i
+
+# target to preprocess a source file
+BFS.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/BFS.cpp.i
+.PHONY : BFS.cpp.i
+
+BFS.s: BFS.cpp.s
+
+.PHONY : BFS.s
+
+# target to generate assembly for a file
+BFS.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/BFS.cpp.s
+.PHONY : BFS.cpp.s
+
 Coordinate.o: Coordinate.cpp.o
 
 .PHONY : Coordinate.o
@@ -327,6 +354,60 @@ Point.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
+TestBFS.o: TestBFS.cpp.o
+
+.PHONY : TestBFS.o
+
+# target to build an object file
+TestBFS.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestBFS.cpp.o
+.PHONY : TestBFS.cpp.o
+
+TestBFS.i: TestBFS.cpp.i
+
+.PHONY : TestBFS.i
+
+# target to preprocess a source file
+TestBFS.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestBFS.cpp.i
+.PHONY : TestBFS.cpp.i
+
+TestBFS.s: TestBFS.cpp.s
+
+.PHONY : TestBFS.s
+
+# target to generate assembly for a file
+TestBFS.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestBFS.cpp.s
+.PHONY : TestBFS.cpp.s
+
+TestCity.o: TestCity.cpp.o
+
+.PHONY : TestCity.o
+
+# target to build an object file
+TestCity.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestCity.cpp.o
+.PHONY : TestCity.cpp.o
+
+TestCity.i: TestCity.cpp.i
+
+.PHONY : TestCity.i
+
+# target to preprocess a source file
+TestCity.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestCity.cpp.i
+.PHONY : TestCity.cpp.i
+
+TestCity.s: TestCity.cpp.s
+
+.PHONY : TestCity.s
+
+# target to generate assembly for a file
+TestCity.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestCity.cpp.s
+.PHONY : TestCity.cpp.s
+
 TestGrid.o: TestGrid.cpp.o
 
 .PHONY : TestGrid.o
@@ -381,6 +462,33 @@ TestNode.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestNode.cpp.s
 .PHONY : TestNode.cpp.s
 
+TestPoint.o: TestPoint.cpp.o
+
+.PHONY : TestPoint.o
+
+# target to build an object file
+TestPoint.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestPoint.cpp.o
+.PHONY : TestPoint.cpp.o
+
+TestPoint.i: TestPoint.cpp.i
+
+.PHONY : TestPoint.i
+
+# target to preprocess a source file
+TestPoint.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestPoint.cpp.i
+.PHONY : TestPoint.cpp.i
+
+TestPoint.s: TestPoint.cpp.s
+
+.PHONY : TestPoint.s
+
+# target to generate assembly for a file
+TestPoint.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/TestPoint.cpp.s
+.PHONY : TestPoint.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -408,6 +516,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -425,6 +560,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... BFS.o"
+	@echo "... BFS.i"
+	@echo "... BFS.s"
 	@echo "... Coordinate.o"
 	@echo "... Coordinate.i"
 	@echo "... Coordinate.s"
@@ -437,15 +575,27 @@ help:
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"
+	@echo "... TestBFS.o"
+	@echo "... TestBFS.i"
+	@echo "... TestBFS.s"
+	@echo "... TestCity.o"
+	@echo "... TestCity.i"
+	@echo "... TestCity.s"
 	@echo "... TestGrid.o"
 	@echo "... TestGrid.i"
 	@echo "... TestGrid.s"
 	@echo "... TestNode.o"
 	@echo "... TestNode.i"
 	@echo "... TestNode.s"
+	@echo "... TestPoint.o"
+	@echo "... TestPoint.i"
+	@echo "... TestPoint.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

@@ -7,6 +7,7 @@
 
 #include "Trip.h"
 #include "Driver.h"
+#include "Point.h"
 
 
 class TaxiCenter {
@@ -16,14 +17,14 @@ private:
     Trip trips[];
 public:
     TaxiCenter();
-    Driver findDriver(Trip t); //TODO
+    Driver findDriver(Trip t);
     Trip createTrip(Passenger p);
     void setTaxiLocations(Point p[]);
     void addTrip(Passenger p);
-    void updateMeters(); //TODO
+    void updateMeters();
     int checkDestinations();
-    Point* getLocations();//TODO
-    Trip* getTrips();//TODO
+    Point* getLocations() {};
+    Trip* getTrips(){};
 
 };
 

@@ -1,10 +1,19 @@
 
 #include "TestGrid.h"
-#include "gtest/gtest.h"
+#include "Node.h"
+#include "Point.h"
+#include <gtest/gtest.h>
 
+/*    Grid(int sizeX, int sizeY);
+    void deleteGraph();
+    */
+TEST(TestGrid, validSize) {
+    Grid g = Grid(-1, 3);
+
+}
 TEST(TestGrid, GetLocationOfPrev) {
     Point* point = new Point(1,2);
-    Point* point2 = new  Point(3,3);
+    Point* point2 = new Point(3,3);
     Node* n = new Node(point);
     Node* prev = new Node(point2);
     n->setPrev(*prev);
@@ -31,16 +40,23 @@ TEST(TestGrid, GetNeighbors) {
     vector<Node*>::iterator v = neighbors.begin();
     int i = 0;
     while (v != neighbors.end()) {
-        int* loc = v.getLocation();
+        int* loc = (*(*(v))).getLocation();
         ASSERT_EQ(p[i].getX(), loc[0]) << "Wrong neighbor!";
-        ASSERT_EQ(p[i].getY(), v->getLocation()[1]) << "Wrong neighbor!";
+        ASSERT_EQ(p[i].getY(), (*(*(v))).getLocation()[1]) << "Wrong neighbor!";
         v++;
         i++;
     }
+    //Point* pointNeg = new Point(0,0);
+    //n =  Node(pointNeg);
+    //std::vector<Node*> neighbors = grid->getNeighbors(n);
+    delete point;
+    delete n;
+    delete grid;
 }
 
 TEST(TestGrid, GetNode) {
     Point* p = new Point(1,2);
     Node n = Node(p);
     ASSERT_TRUE(n.getLocation()[0] == 1 && n.getLocation()[1] == 2) << "Node initialized incorrectly.";
+
 }//comment

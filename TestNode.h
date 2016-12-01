@@ -4,11 +4,12 @@
 
 #ifndef EX2_TESTNODE_H
 #define EX2_TESTNODE_H
-
-
+#include <gtest/gtest.h>
 #include "Node.h"
 
 class TestNode:public::testing::Test {
+protected:
+    Node n;
 public:
     void Node();
     void Visit();
