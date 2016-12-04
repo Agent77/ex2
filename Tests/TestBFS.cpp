@@ -34,7 +34,7 @@ TEST_F(TestBFS,visitNeighbors){
     while (v != neighbors.end()) {
         Point* neighbor = (Point*)(*(*(v))).getMyLocation();
         //TODO overload ==
-        ASSERT_EQ(p[i], neighbor) << "visitNeighbors didn't find the correct neighbors";
+        ASSERT_TRUE(p[i].equalTo(neighbor)) << "visitNeighbors didn't find the correct neighbors";
         i++;
         v++;
     }
