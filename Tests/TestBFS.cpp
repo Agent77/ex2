@@ -14,11 +14,12 @@ TEST_F(TestBFS, getPath) {
 
 TEST_F(TestBFS,visitNeighbors){
     Point* np = new Point(1,1);
+    Point p[4];
     std::vector<Node*> neighbors = bfs->visitNeighbors(new Node(np));
-    Point* p = new Point(0,1);
-    Point* p2 = new Point(1,2);
-    Point* p3 = new Point(2,1);
-    Point* p4 = new Point(1,0);
+     p[0] =  Point(0,1);
+     p[1] =  Point(1,2);
+     p[2] =  Point(2,1);
+     p[3] =  Point(1,0);
     /*Node* first = new Node(p);
     Node* second = new Node (p2);
     Node* third = new Node (p3);
@@ -29,15 +30,13 @@ TEST_F(TestBFS,visitNeighbors){
     v.push_back(third);
     v.push_back(fourth);*/
     vector<Node *>::iterator v = neighbors.begin();
+    int i = 0;
     while (v != neighbors.end()) {
-        Point* neighbor = (Point*)neighbors.front()->getMyLocation();
-
+        Point* neighbor = (Point*)(*(*(v))).getMyLocation();
+        //TODO overload ==
+        ASSERT_EQ(p[i], neighbor) << "visitNeighbors didn't find the correct neighbors";
+        i++;
+        v++;
     }
-    ASSERT_EQ(p, neighbor) << "visitNeighbors didn't find the correct neighbors";
+
 }
-
-
-while (v != neighbors.end()) {
-if (!(*(*v)).isVisited()) {
-(*(*v)).visit();
-myDeque.push((*v));
