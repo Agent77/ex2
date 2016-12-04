@@ -15,13 +15,11 @@ TEST_F(TestPassenger, PassengerConstructor) {
 }
 
 TEST_F(TestPassenger, RateDriver) {
-Passenger p = Passenger();
-int rating = p.rateDriver();
+    int rating = p.rateDriver();
     ASSERT_GE(rating,1) << "Rating is less 1.";
     ASSERT_LE(rating, 5) << "Rating is greater than 5.";
 }
 TEST_F(TestPassenger, Source) {
-    Passenger p = Passenger();
     Point source = p.getSource();
     Point dest = p.getDestination();
     ASSERT_EQ(source.getX(), 1) << "Wrong source X.";
