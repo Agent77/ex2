@@ -10,12 +10,6 @@
 class TestNode:public::testing::Test {
 protected:
     Node n;
-public:
-    void Node();
-    void Visit();
-    void Prev();
-    void GetLocations();
-
 };
 
 

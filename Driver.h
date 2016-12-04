@@ -3,15 +3,16 @@
 
 #include "Trip.h"
 #include "Passenger.h"
+#include "Taxi.h"
 class Driver {
 private:
     int driverID;
     int age;
-    int avgSatisfaction;
+    double avgSatisfaction;
     string maritalStatus;
     Taxi taxi;
     Trip myTrip;
-    Passenger myPassengers[];
+    Passenger myPassengers[10];
 public:
     Driver();
     ~Driver();

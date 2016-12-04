@@ -14,9 +14,6 @@ public:
     void SetUp() {
         p = Passenger(Point(1,2),Point(3,4));
     }
-    void PassengerConstructor() : p = Passenger(Point(1,2),Point(3,4));
-    int RateDriver();
-    void Source();
 
 };
 

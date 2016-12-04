@@ -4,9 +4,10 @@
 
 #ifndef EX2_TESTCITY_H
 #define EX2_TESTCITY_H
-
-
-class TestCity {
+#include "gtest/gtest.h"
+#include "City.h"
+#include "GameFlow.h"
+class TestCity:public::testing::Test {
 
 };
 

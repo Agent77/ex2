@@ -5,7 +5,7 @@ Trip::Trip() {
 
 }
 
-Trip::Trip(int id, Point s, Point d) {
+Trip::Trip(Point s, Point d) {
 
 }
 
@@ -21,7 +21,7 @@ int Trip::getMeters() {
 
 }
 
-int Trip::numOfPassengers() {
+int Trip::getNumOfPassengers() {
 
 }
 

@@ -1,3 +1,4 @@
+#include <sstream>
 #include "BFS.h"
 
 using namespace std;
@@ -22,9 +23,10 @@ BFS::BFS(Graph* g, int x, int y, Coordinate* sLoc, Coordinate* dLoc) {
  * working backwards, from destination, and asking for the
  * node's 'previous' until arriving at the source.
  */
-void BFS::PrintPath( Node* source, Node* destination) {
+ostringstream BFS::PrintPath( Node* source, Node* destination) {
     Coordinate* path[100] = {};
     int count = 0;
+    std::ostringstream stream;
     Node* currentNode = destination;
     Coordinate* c = ((*(currentNode)).getMyLocation());
     path[count] = c;
@@ -42,10 +44,12 @@ void BFS::PrintPath( Node* source, Node* destination) {
     } while(!(currentNode->getMyLocation()->equalTo(source->getMyLocation())));
 
     for(int i = count; i >= 0; i--) {
-        cout<<*path[count];
-        cout<<endl;
+        stream<<*path[count];
+        stream<<endl;
     }
-    //graph->deleteGraph();
+
+    graph->deleteGraph();
+    return stream;
 }
 
 /*
@@ -78,16 +82,17 @@ void BFS::getPath() {
  * If they haven't, its sets their member 'visited' to true and
  * pushes them onto the queue.
  */
-void BFS::visitNeighbors(Node* n) {
-    std::vector<Node*> neighbors = (*(graph)).getNeighbors(n);
-    vector<Node*>::iterator v =neighbors.begin();
-    while (v!=neighbors.end()){
-        if (!(*(*v)).isVisited()){
+std::vector<Node*> BFS::visitNeighbors(Node* n) {
+    std::vector<Node *> neighbors = (*(graph)).getNeighbors(n);
+    vector<Node *>::iterator v = neighbors.begin();
+    while (v != neighbors.end()) {
+        if (!(*(*v)).isVisited()) {
             (*(*v)).visit();
             myDeque.push((*v));
         }
         v++;
     }
+    return neighbors;
 }
 BFS::~BFS() {
 

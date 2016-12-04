@@ -16,6 +16,7 @@ public:
     City();
     void CallTaxiCenter(Passenger p);
     Passenger checkForPassengerCalls();
+    TaxiCenter getTaxiCenter() {};
 };
 
 

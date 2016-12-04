@@ -53,7 +53,7 @@ int Point::getX() {
  * Another constructor which accepts a Coordinate,
  * and takes its coordinates to create a Point object.
  */
-Point::Point(Coordinate *cor) { //TODO changes made
+Point::Point(Coordinate *cor) {
     int size = sizeof(locs)/4;
     for(int i = 0; i< size; i++) {
         locs[i] = cor->getNextCoordinate(i);

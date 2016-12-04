@@ -36,3 +36,9 @@ TEST(TestPoint, getCoordinateArray) {
         int* a = p1.getCoordinates();
         ASSERT_TRUE((a[0] == 1) && (a[1] == 2)) << "Coordinates returned incorrectly.";
     }
+TEST(TestPoint, Print) {
+    //std::ostream& o;
+    Point p = Point(7,9);
+    //string s = p.printFormat(o);
+    //ASSERT_STREQ(s, "(7,8)") << "Wrong format.";
+}

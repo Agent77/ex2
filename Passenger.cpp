@@ -6,14 +6,14 @@ Passenger::Passenger(Point p, Point p2) {
     dest = p2;
 }
 
-int rateDriver() {
+int Passenger::rateDriver() {
 
 }
 
-Point getSource() {
+Point Passenger::getSource() {
     return source;
 }
 
-Point getDestination() {
+Point Passenger::getDestination() {
     return dest;
 }

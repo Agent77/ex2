@@ -12,18 +12,19 @@
 
 class TaxiCenter {
 private:
-    Driver drivers[];
-    Point locations[];
-    Trip trips[];
+    Driver drivers[10];
+    Point* locations;
+    Trip trips[10];
 public:
     TaxiCenter();
     Driver findDriver(Trip t);
     Trip createTrip(Passenger p);
+    void setLocation(int index, Point location);
     void setTaxiLocations(Point p[]);
     void addTrip(Passenger p);
     void updateMeters();
     int checkDestinations();
-    Point* getLocations() {};
+    Point* getLocations() { return locations;}
     Trip* getTrips(){};
 
 };

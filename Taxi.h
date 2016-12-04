@@ -1,6 +1,3 @@
-//
-// Created by Tiki Lobel on 12/1/16.
-//
 
 #ifndef EX2_TAXI_H
 #define EX2_TAXI_H
@@ -15,10 +12,9 @@ private:
     int color;
     int tariff;
     int speed;
+    bool luxury;
+
 public:
-
-
-
     Taxi();
     ~Taxi();
     void updateKms();
@@ -26,6 +22,7 @@ public:
     void getManu();
     int getTariff();
     int getId();
+    int getKms();
 };
 
 

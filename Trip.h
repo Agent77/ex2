@@ -15,14 +15,15 @@ private:
 
 public:
     Trip();
-    Trip(int id, Point s, Point d);
+    Trip(Point s, Point d);
     ~Trip();
     int getId();
     int getMeters();
-    int numOfPassengers();
+    int getNumOfPassengers();
     int getTariff();
     Point getSource();
     Point getDest();
+    void addMeters();
 
 };
 

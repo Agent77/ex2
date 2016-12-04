@@ -48,6 +48,3 @@ TEST(TestNode, GetLocations) {
     delete point;
     delete n;
 }
-
-
-//comment

@@ -19,7 +19,6 @@ public:
 
     void addTrip();
     void setTaxiLocations();
-    void checkDestinations();
     Driver findDriver(Trip t);
     Trip createTrip(Passenger p);
     void addTrip(Passenger p);

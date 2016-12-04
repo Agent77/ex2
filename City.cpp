@@ -6,5 +6,5 @@ void City::CallTaxiCenter(Passenger p) {
 
 }
 Passenger City::checkForPassengerCalls() {
-return NULL;
+
 }
