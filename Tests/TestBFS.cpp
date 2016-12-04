@@ -20,23 +20,13 @@ TEST_F(TestBFS,visitNeighbors){
      p[1] =  Point(1,2);
      p[2] =  Point(2,1);
      p[3] =  Point(1,0);
-    /*Node* first = new Node(p);
-    Node* second = new Node (p2);
-    Node* third = new Node (p3);
-    Node* fourth = new Node(p4);
-    std::vector<Node*> v;
-    v.push_back(first);
-    v.push_back(second);
-    v.push_back(third);
-    v.push_back(fourth);*/
     vector<Node *>::iterator v = neighbors.begin();
     int i = 0;
     while (v != neighbors.end()) {
         Point* neighbor = (Point*)(*(*(v))).getMyLocation();
-        //TODO overload ==
         ASSERT_TRUE(p[i].equalTo(neighbor)) << "visitNeighbors didn't find the correct neighbors";
         i++;
         v++;
     }
-
+    delete np;
 }

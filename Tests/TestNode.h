@@ -9,7 +9,14 @@
 
 class TestNode:public::testing::Test {
 protected:
-    Node n;
+    Node* n;
+    Point* point;
+public:
+    void SetUp() {
+        cout << "Setting Up.\n";
+        point = new Point(1,2);
+        n = new Node(point);
+    }
 };
 
 

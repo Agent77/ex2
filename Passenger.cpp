@@ -11,9 +11,9 @@ int Passenger::rateDriver() {
 }
 
 Point Passenger::getSource() {
-    return source;
+
 }
 
 Point Passenger::getDestination() {
-    return dest;
+
 }

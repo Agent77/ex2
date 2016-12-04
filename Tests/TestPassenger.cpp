@@ -3,7 +3,6 @@
 #include "TestPassenger.h"
 
 TEST_F(TestPassenger, PassengerConstructor) {
-    //Passenger p = Passenger(Point(1,2),Point(3,4));
     int x = p.getSource().getX();
     int y = p.getSource().getY();
     ASSERT_EQ(x, 1) << "sourceX not set correctly.";

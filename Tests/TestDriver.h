@@ -12,7 +12,11 @@ protected:
     Driver d;
 public:
     void SetUp() {
+        cout << "Setting Up.\n";
         d = Driver(345, 22, "WIDOW");
+    }
+    void TearDown() {
+        cout << "Tearing Down.\n";
     }
 };
 

@@ -48,26 +48,30 @@ TEST_F(TestTaxiCenter, FindDriver) { //TODO
 
 //Take into account luxury vs standard cabs arriving faster
 }
-TEST_F(TestTaxiCenter, CreateTrip) { //TODO
+TEST_F(TestTaxiCenter, CreateTrip) {
 //Make sure takes information from passenger correctly
     TaxiCenter tc = TaxiCenter();
-    Passenger pass = Passanger (Point (1,2),Point (3,3));
+    Passenger pass = Passenger(Point (1,2),Point (3,3));
     tc.createTrip(pass);
-    Trip tr= (Point (1,2), Point(3,3));
-    ASSERT_EQ(pass.getSource(),tr.getSource())<<"TaxiCenter didn't get passanger's source";
-    ASSERT_EQ(pass.getDestination(),tr.getDest())<<"TaxiCenter didn't get passanger's destination";
+    Trip tr= Trip(Point (1,2), Point(3,3));
+    Point source = pass.getSource();
+    Point sourcetr = tr.getSource();
+    Point dest = pass.getDestination();
+    Point trDest = tr.getDest();
+    Point* psource = new Point(source.getX(), source.getY());
+    Point* pdest = new Point(dest.getX(), dest.getY());
+    Point* ptrDest = new Point(trDest.getX(), trDest.getY());
+    Point* ptrSource = new Point(sourcetr.getX(), sourcetr.getY());
+    ASSERT_TRUE(psource->equalTo(ptrSource)) << "TaxiCenter didn't get passanger's source";
+    ASSERT_TRUE(pdest->equalTo(ptrDest)) << "TaxiCenter didn't get passanger's destination";
 }
-TEST_F(TestTaxiCenter, SetTaxiLocations) {//TODO
+TEST_F(TestTaxiCenter, SetTaxiLocations) {
  //Checks that locations are all updated
     TaxiCenter tc = TaxiCenter();
     Point p[3];
     p[0]=Point (1,2);
     p[1]=Point(2,3);
     p[2]=Point(0,3);
-    tc.setLocation(p);
-    ASSERT_EQ(tc.getLocations()[0],p[0])<<"first driver's location hasn't been updated";
-    ASSERT_EQ(tc.getLocations()[1],p[1])<<"second driver's location hasn't been updated";
-    ASSERT_EQ(tc.getLocations()[2],p[2])<<"third driver's location hasn't been updated";
+    tc.setTaxiLocations(p);
+    ASSERT_EQ(p, tc.getLocations())<<"first driver's location hasn't been updated";
 }
-
-//Comment

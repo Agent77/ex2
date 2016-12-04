@@ -3,7 +3,7 @@
 #include "TestNode.h"
 
 
-TEST(TestNode, Node) {
+TEST_F(TestNode, Node) {
     Point* p;
     Point point = Point(1,2);
     p = &point;
@@ -15,15 +15,13 @@ TEST(TestNode, Node) {
     ASSERT_EQ(y, 2) << "y did not get correct value.";
 }
 
-TEST(TestNode, Visit) {
-    Node n = Node();
-    n.visit();
-    ASSERT_TRUE(n.isVisited()) << "Did not visit properly.";
+TEST_F(TestNode, Visit) {
+    n->visit();
+    ASSERT_TRUE(n->isVisited()) << "Did not visit properly.";
 }
-TEST(TestNode, Prev) {
-    Point* point = new Point(1,2);
+
+TEST_F(TestNode, Prev) {
     Point* point2 = new  Point(3,3);
-    Node* n = new Node(point);
     Node* prev = new Node(point2);
     n->setPrev(*prev);
     ASSERT_TRUE(n->getPrev() == prev) << "Previous Node not set correctly.";
@@ -33,7 +31,7 @@ TEST(TestNode, Prev) {
     delete prev;
 }
 
-TEST(TestNode, GetLocations) {
+TEST_F(TestNode, GetLocations) {
     Point* point = new Point(1,2);
     Node* n = new Node(point);
     Point po(n->getMyLocation());

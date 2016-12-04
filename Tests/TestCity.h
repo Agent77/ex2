@@ -12,7 +12,11 @@ protected:
     City c;
 public:
     void SetUp() {
+        cout << "Setting Up.\n";
         c = City();
+    }
+    void TearDown() {
+        cout << "Tearing Down.\n";
     }
 };
 
