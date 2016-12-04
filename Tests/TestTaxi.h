@@ -5,7 +5,7 @@
 #ifndef EX2_TESTTAXI_H
 #define EX2_TESTTAXI_H
 
-#include "Taxi.h"
+#include "../Taxi.h"
 class TestTaxi: public::testing::Test {
 
 };

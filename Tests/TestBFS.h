@@ -5,9 +5,9 @@
 #ifndef EX2_TESTBFS_H
 #define EX2_TESTBFS_H
 
-#include "Point.h"
-#include "Grid.h"
-#include "BFS.h"
+#include "../Point.h"
+#include "../Grid.h"
+#include "../BFS.h"
 
 #include <gtest/gtest.h>
 

@@ -23,15 +23,14 @@ BFS::BFS(Graph* g, int x, int y, Coordinate* sLoc, Coordinate* dLoc) {
  * working backwards, from destination, and asking for the
  * node's 'previous' until arriving at the source.
  */
-ostringstream BFS::PrintPath( Node* source, Node* destination) {
-    Coordinate* path[100] = {};
+void BFS::PrintPath( Node* source, Node* destination) {
+    Coordinate *path[100] = {};
     int count = 0;
-    std::ostringstream stream;
-    Node* currentNode = destination;
-    Coordinate* c = ((*(currentNode)).getMyLocation());
+    Node *currentNode = destination;
+    Coordinate *c = ((*(currentNode)).getMyLocation());
     path[count] = c;
     count++;
-    Node* n;
+    Node *n;
     do {
         n = ((*(graph)).getLocationOfPrev(currentNode));
         if (n->getMyLocation()->equalTo(source->getMyLocation())) {
@@ -41,17 +40,15 @@ ostringstream BFS::PrintPath( Node* source, Node* destination) {
         path[count] = n->getMyLocation();
         count++;
         currentNode = n;
-    } while(!(currentNode->getMyLocation()->equalTo(source->getMyLocation())));
+    } while (!(currentNode->getMyLocation()->equalTo(source->getMyLocation())));
 
-    for(int i = count; i >= 0; i--) {
-        stream<<*path[count];
-        stream<<endl;
+    for (int i = count; i >= 0; i--) {
+        Point point = path[i];
+        cout << point << endl;
     }
 
     graph->deleteGraph();
-    return stream;
 }
-
 /*
  * Gets the path from a source to a destination using a queue.
  * each iteration, it checks if it has arrived the destination.
@@ -72,7 +69,7 @@ void BFS::getPath() {
         c1 = (*(newSource)).getMyLocation();
         c2 = (*(destination)).getMyLocation();
     } while(!(c2->equalTo(c1)));
-    //BFS::PrintPath(source, destination);
+//    BFS::PrintPath(source, destination);
 }
 
 /*

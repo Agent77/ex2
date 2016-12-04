@@ -6,9 +6,14 @@
 #define EX2_TESTDRIVER_H
 
 #include <gtest/gtest.h>
-#include "Driver.h"
+#include "../Driver.h"
 class TestDriver:public::testing::Test {
-
+protected:
+    Driver d;
+public:
+    void SetUp() {
+        d = Driver(345, 22, "WIDOW");
+    }
 };
 
 

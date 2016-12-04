@@ -29,7 +29,7 @@ public:
     ~BFS();
     BFS(Graph* g, int x, int y, Coordinate* source, Coordinate* destination);
     void getPath();
-    ostringstream PrintPath(Node* s, Node* d);
+    void PrintPath(Node* s, Node* d);
     std::vector<Node*> visitNeighbors(Node* n);
     Node* getDest();
     Node* getSource();

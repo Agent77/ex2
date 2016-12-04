@@ -4,7 +4,7 @@
 
 #ifndef EX2_TESTTRIP_H
 #define EX2_TESTTRIP_H
-#include "Trip.h"
+#include "../Trip.h"
 
 class TestTrip {
 

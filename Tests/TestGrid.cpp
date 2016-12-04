@@ -1,26 +1,18 @@
 
 #include "TestGrid.h"
-#include "Node.h"
-#include "Point.h"
+#include "../Node.h"
+#include "../Point.h"
 #include <gtest/gtest.h>
 
-TEST(TestGrid, GetLocationOfPrev) {
-    Point* point = new Point(1,2);
-    Point* point2 = new Point(3,3);
-    Node* n = new Node(point);
+TEST_F(TestGrid, GetLocationOfPrev) {
     Node* prev = new Node(point2);
     n->setPrev(*prev);
-    Grid* grid = new Grid(4,4);
     grid->getLocationOfPrev(n);
     ASSERT_TRUE(n->getPrev() == prev) << "Previous not set correctly.";
-    delete point;
-    delete point2;
-    delete n;
     delete prev;
-    delete grid;
 }
 
-TEST(TestGrid, GetNeighbors) {
+TEST_F(TestGrid, GetNeighbors) {
     Point* point = new Point(1,1);
     Node* n = new Node(point);
     Grid* grid = new Grid(4,4);
@@ -47,7 +39,7 @@ TEST(TestGrid, GetNeighbors) {
     delete grid;
 }
 
-TEST(TestGrid, GetNode) {
+TEST_F(TestGrid, GetNode) {
     Point* p = new Point(1,2);
     Node n = Node(p);
     ASSERT_TRUE(n.getLocation()[0] == 1 && n.getLocation()[1] == 2) << "Node initialized incorrectly.";

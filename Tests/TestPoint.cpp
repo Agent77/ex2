@@ -1,5 +1,5 @@
 
-#include "Point.h"
+#include "../Point.h"
 #include "TestPoint.h"
 #include <gtest/gtest.h>
 using namespace std;

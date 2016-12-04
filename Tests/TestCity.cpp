@@ -1,11 +1,6 @@
-//
-// Created by nirbs on 29/11/16.
-//
 
 #include "TestCity.h"
-
-TEST(TestCity, PassengerCalls) {
-    City c = City();
+TEST_F(TestCity, PassengerCalls) {
     int count = 0;
     Passenger p = Passenger();
     TaxiCenter tc = c.getTaxiCenter();
