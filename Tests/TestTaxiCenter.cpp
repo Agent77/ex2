@@ -45,6 +45,7 @@ TEST_F(TestTaxiCenter, checkDestinations) {
     ASSERT_EQ(index, 0) << "Doesnt know that it arrived at destination 0.";
 }
 TEST_F(TestTaxiCenter, FindDriver) { //TODO
+
 //Take into account luxury vs standard cabs arriving faster
 }
 TEST_F(TestTaxiCenter, CreateTrip) { //TODO
