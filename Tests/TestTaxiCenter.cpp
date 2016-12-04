@@ -12,7 +12,7 @@ TEST_F(TestTaxiCenter, addTrip) {
     int size = sizeof(tc.getTrips())/4;
     tc.addTrip(Passenger());
     int newSize = sizeof(tc.getTrips())/4;
-    ASSERT_GT(newSize,size) << "Did not add trip.";
+    ASSERT_GT(newSize,size)<< "Did not add trip.";
 }
 
 TEST_F(TestTaxiCenter, setTaxiLocations) {
@@ -50,9 +50,24 @@ TEST_F(TestTaxiCenter, FindDriver) { //TODO
 }
 TEST_F(TestTaxiCenter, CreateTrip) { //TODO
 //Make sure takes information from passenger correctly
+    TaxiCenter tc = TaxiCenter();
+    Passenger pass = Passanger (Point (1,2),Point (3,3));
+    tc.createTrip(pass);
+    Trip tr= (Point (1,2), Point(3,3));
+    ASSERT_EQ(pass.getSource(),tr.getSource())<<"TaxiCenter didn't get passanger's source";
+    ASSERT_EQ(pass.getDestination(),tr.getDest())<<"TaxiCenter didn't get passanger's destination";
 }
 TEST_F(TestTaxiCenter, SetTaxiLocations) {//TODO
  //Checks that locations are all updated
+    TaxiCenter tc = TaxiCenter();
+    Point p[3];
+    p[0]=Point (1,2);
+    p[1]=Point(2,3);
+    p[2]=Point(0,3);
+    tc.setLocation(p);
+    ASSERT_EQ(tc.getLocations()[0],p[0])<<"first driver's location hasn't been updated";
+    ASSERT_EQ(tc.getLocations()[1],p[1])<<"second driver's location hasn't been updated";
+    ASSERT_EQ(tc.getLocations()[2],p[2])<<"third driver's location hasn't been updated";
 }
 
 //Comment
