@@ -13,16 +13,17 @@
 
 class TestBFS: public::testing::Test {
 protected:
-
+    BFS* bfs;
 public:
-    BFS bfs;
     void SetUp() {
         Point* p = new Point(0,0);
-        Point* p2 = new Point(1,2);
+        Point* p2 = new Point(0,1);
         Grid* g = new Grid(3, 3);
-        bfs = BFS(g, 3, 3, p, p2);
+        bfs = new BFS(g, 3, 3, p, p2);
     }
-
+    void TearDown() {
+        delete bfs;
+    }
 };
 
 
